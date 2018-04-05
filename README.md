@@ -1,6 +1,21 @@
 Ruby/Elixir Engineer Coding Challenge
 =======================
 
+##Overview
+This is the resolution of the Ruby/Elixir Engineer Coding Challenge below. It's important to point that:
+* The shortest distance between 2 points is being calculated using [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) provided by [BioRuby](http://bioruby.org/rdoc/index.html), an open source Ruby library for developing bioinformatics software.
+* API namespaces best practice is not being used to match the routes provided by the exercise example.
+* Despite the simplicity of the exercise, Rails API was chosen over Sinatra. Just a personal choice.
+* To handle large loads PostgreSQL database was a personal choice.
+
+## Setup
+* `bundle install`
+* `rails db:create db:migrate`
+* `rspec`
+
+
+
+## Exercise
 Hello!
 
 We've come up with this relatively open-ended programming/engineering challenge that will allow you to demonstrate your skills from the comfort of your own workspace. In addition, we know your time is valuable, so please feel free to use your completed work as a portfolio piece.
